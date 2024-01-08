@@ -20,7 +20,7 @@ choice /n /t 600 /d y >nul
 
     VBoxManage controlvm "KaliLinux" poweroff
 
-    REM - Other ways to power off -
+    REM - Other ways to turn off -
     REM VBoxManage controlvm "KaliLinux" acpipowerbutton
     REM VBoxManage controlvm "KaliLinux" savestate
 
